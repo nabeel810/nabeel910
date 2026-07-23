@@ -22,5 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests yfinance pandas
 
-      - name: Run Bot
+      - name: Run Trading Bot 24-7
+
         run: python bot.py
