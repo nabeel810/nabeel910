@@ -1,4 +1,4 @@
-herename: Run Trading Bot 24-7
+name: Run Trading Bot 24-7
 
 on:
   schedule:
@@ -22,6 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests yfinance pandas
 
-      - name: Run Trading Bot 24-7
-
+      - name: Run Bot
         run: python bot.py
+
