@@ -1,4 +1,4 @@
-Enterimport time
+import time
 import requests
 from datetime import datetime, timezone
 import yfinance as yf
